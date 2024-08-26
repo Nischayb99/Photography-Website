@@ -36,7 +36,7 @@ Setup Instructions
 
 1. Clone the repository:
 
-   git clone https://github.com/Chintub99/photography-website.git
+   git clone https://github.com/Nischayb99/photography-website.git
 
 2. Navigate to the project directory:
 
