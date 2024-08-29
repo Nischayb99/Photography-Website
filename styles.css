@@ -5,9 +5,22 @@
     font-weight: 400;
   font-style: normal;
 }
+.navbar-brand{
+  font-size: 22px;
+  font-weight: 500;
+}
+#dark-mode{
+  font-size: 18px;
+}
+#light-mode{
+  font-size: 18px;
+}
+#aoto-mode{
+  font-size: 18px;
+}
 .main_box{
   background: url(photo.jpg);
-  height: 100vh;
+  height: 92.4vh;
   background-size: cover;
 }
 .btn_one i{
@@ -16,14 +29,15 @@
   font-weight: 700;
   position: absolute;
   left: 16px;
-  top: 9px;
+  top: 68px;
   list-style: 60px;
   transition: all 0.3s linear;
 }
 .sidebar_menu{
   position: fixed;
   left: -300px;
-  height: 100vh;
+  top: 57px ;
+  height: 92.4vh;
   width: 300px;
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow:0 0 6px rgba(255, 255, 255, 0.5);
@@ -59,6 +73,9 @@
   cursor: pointer;
   transition: all 0.3s linear;
 }
+.sidebar_menu .menu ul{
+  list-style: none;
+}
 .sidebar_menu .menu li {
   margin-top: 6px;
   padding: 14px 20px;
@@ -75,8 +92,8 @@
 }
 .sidebar_menu .social_media {
   position: absolute;
-  left: 25%;
-  bottom: 50px;
+  left: 10%;
+  bottom: 30px;
 }
 .sidebar_menu .social_media i{
   color: #fff;
